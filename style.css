@@ -1,0 +1,60 @@
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #d60e83;
+    color: #864949;
+    padding: 20px;
+}
+header {
+    background: #884949;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+header h1 {
+    margin-bottom: 10px;
+}
+nav ul {
+    list-style: none;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #3a33aa;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    margin: 20px 0;
+}
+section h2 {
+    margin-bottom: 10px;
+    border-bottom: 2px solid #9c4c4c;
+    padding-bottom: 10px;
+}
+#about p, #contact p {
+    margin-bottom: 20px;
+}
+#education {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+footer p {
+    margin: 0;
+}
